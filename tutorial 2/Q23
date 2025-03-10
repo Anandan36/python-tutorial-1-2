@@ -1,0 +1,3 @@
+from collections import Counter
+nums = list(map(int, input().split()))
+print(max(sorted(nums), key=nums.count))

@@ -1,0 +1,3 @@
+lst = eval(input())
+ints, floats, strs = [x for x in lst if isinstance(x, int)], [x for x in lst if isinstance(x, float)], [x for x in lst if isinstance(x, str)]
+print(ints, floats, strs)

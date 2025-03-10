@@ -1,0 +1,4 @@
+nums = list(map(int, input().split()))
+pos = [i for i in nums if i > 0]
+neg = [i for i in nums if i < 0]
+print(sum(neg), sum(pos), sum(neg)/len(neg) if neg else 0, sum(pos)/len(pos) if pos else 0)

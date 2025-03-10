@@ -1,0 +1,4 @@
+s, words = input(), input().split()
+for w in words:
+    s = s.replace(w, "")
+print(s)

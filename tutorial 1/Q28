@@ -1,0 +1,2 @@
+l, u = map(int, input().split())
+print(sum(i for i in range(l, u+1) if i % 2 != 0))

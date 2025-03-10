@@ -1,0 +1,5 @@
+x, y = map(int, input().split())
+res = 1
+for _ in range(y):
+    res *= x
+print(res)
